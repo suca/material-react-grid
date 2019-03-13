@@ -1,0 +1,49 @@
+/*
+React Material + Grid
+*/
+
+.app-container {
+    width: 100%;
+    margin: auto;
+
+    &__logo {
+        padding: 5px 50px;
+        display: flex;
+        flex-direction: row;
+        align-content: center;
+
+        img {
+            max-width: 200px;
+            max-height: 200px;
+        }
+
+        h2 {
+            align-items: center;
+            display: flex;
+        }
+
+    }
+    &__header {
+        margin: 5px 50px;
+    }
+    &__grid {
+        margin: 10px 50px;
+    }
+}
+.app-button {
+    &__search {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        svg {
+            margin-left: 5px;
+        }
+    }
+
+    &__clear {
+        display: flex;
+        justify-content: left;
+        align-items: center;
+    }
+}
